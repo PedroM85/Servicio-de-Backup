@@ -1,0 +1,12 @@
+﻿<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<wcproduction xmlns="urn:schemas-microsoft-com:sql:SqlRowSet1">
+   <Server>ABADEJO</Server>
+   <DataBase>ewave_develop2</DataBase>
+   <PathD>C:\Users\Administrator\Documents\Visual Studio 2012\Projects\WindowsService\Tigre.Config.Backup\bin\Debug\puputo.log</PathD>
+   <Mode>Daily</Mode>
+   <IntervalMinutes>1</IntervalMinutes>
+   <ScheduledTime>17:09</ScheduledTime>
+	<pathLOG>D:\Users\PedroM\Documents\Visual Studio 2012\Projects\WindowsService\Builds\GUI\prueba.txt</pathLOG>
+</wcproduction>
+</root>
