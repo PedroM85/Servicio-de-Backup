@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsServiceVB", "WindowsServiceVB\WindowsServiceVB.vbproj", "{0333A6F1-359A-446E-8ADE-66F5D2B8F85E}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ewave.Backup Service", "WindowsServiceVB\Ewave.Backup Service.vbproj", "{0333A6F1-359A-446E-8ADE-66F5D2B8F85E}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ewave.Backup", "Tigre.Config.Backup\Ewave.Backup.vbproj", "{A98006CA-0E0F-41FF-92E9-994DF3B65969}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Ewave.Backup Config", "Tigre.Config.Backup\Ewave.Backup Config.vbproj", "{A98006CA-0E0F-41FF-92E9-994DF3B65969}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

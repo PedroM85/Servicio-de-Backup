@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Ewave.Backup.FrmMain
+            Me.MainForm = Global.Ewave.ConfigBackup.FrmMain
         End Sub
     End Class
 End Namespace

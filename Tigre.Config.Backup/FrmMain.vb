@@ -4,8 +4,8 @@ Imports System.Xml.Linq
 Imports System.Threading
 
 Enum Intervalos
-    Daily
-    Interval
+    DAILY
+    INTERNAL
 End Enum
 
 Public Class FrmMain
@@ -139,7 +139,7 @@ Public Class FrmMain
                             Else
                                 Dim odatah As DateTime = xwcProduction.Element("ScheduledTime")
                                 odatah = Format(odatah, "HH:mm:ss")
-                                oApp.mScheduledTime = odatah
+                                oApp.ScheduledTime = odatah
                             End If
                         End If
 

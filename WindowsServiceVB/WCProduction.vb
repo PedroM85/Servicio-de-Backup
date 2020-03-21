@@ -1,117 +1,118 @@
-﻿Imports System.Xml
+﻿
+Public Class WCProduction
+    Private _Server As String
+    Private _DataBase As String
+    Private _PathD As String
+    Private _Mode As String
+    Private _IntervalMinutes As Integer
+    Private _ScheduledTime As DateTime
+    Private _pathLOG As String
+    Private _Exp As String
+    Private _date2 As DateTime
+    Private _Zip As Boolean
+    Private _opZip As Integer
 
 
-Class WCProduction
-    Public Server As String
-    Public DataBase As String
-    Public PathD As String
-    Public Mode As String
-    Public IntervalMinutes As Integer
-    Public ScheduledTime As DateTime
-    Public pathLOG As String
-    Public Exp As String
-    Public date2 As DateTime
-    Public Zip As Boolean
-    Public opZip As Integer
-
-    Public Property mServer As String
+    Public Property Server As String
         Get
-            mServer = Server
+            Return _Server
         End Get
         Set(value As String)
-            Server = value
+            _Server = value
         End Set
     End Property
 
-    Public Property mDataBase As String
+    Public Property DataBase As String
         Get
-            mDataBase = DataBase
+            Return _DataBase
         End Get
         Set(value As String)
-            DataBase = value
+            _DataBase = value
         End Set
     End Property
 
-    Public Property mPathD As String
+    Public Property PathD As String
         Get
-            mPathD = PathD
+            Return _PathD
         End Get
         Set(value As String)
-            PathD = value
+            _PathD = value
         End Set
     End Property
 
-    Public Property mMode As String
+    Public Property Mode As String
         Get
-            mMode = Mode
+            Return _Mode
         End Get
         Set(value As String)
-            Mode = value
+            _Mode = value
         End Set
     End Property
 
-    Public Property mIntervalMinutes As Integer
+    Public Property IntervalMinutes As Integer
         Get
-            mIntervalMinutes = IntervalMinutes
+            Return _IntervalMinutes
         End Get
         Set(value As Integer)
-            IntervalMinutes = value
+            _IntervalMinutes = value
         End Set
     End Property
 
-    Public Property mScheduledTime As DateTime
+    Public Property ScheduledTime As DateTime
         Get
-            mScheduledTime = ScheduledTime
+            Return _ScheduledTime
         End Get
         Set(value As DateTime)
-            ScheduledTime = value
+            _ScheduledTime = value
         End Set
     End Property
 
-    Public Property mPathLog As String
+    Public Property PathLog As String
         Get
-            mPathLog = pathLOG
+            Return _pathLOG
         End Get
         Set(value As String)
-            pathLOG = value
+            _pathLOG = value
         End Set
     End Property
 
-    Public Property mExp As String
+    Public Property Exp As String
         Get
-            mExp = Exp
+            Return _Exp
         End Get
         Set(value As String)
-            Exp = value
+            _Exp = value
         End Set
     End Property
 
-    Public Property mdate2 As DateTime
+    Public Property date2 As DateTime
         Get
-            mdate2 = date2
+            Return _date2
         End Get
         Set(value As DateTime)
-            date2 = value
+            _date2 = value
         End Set
     End Property
 
-    Public Property mZip As Boolean
+    Public Property Zip As Boolean
         Get
-            mZip = Zip
+            Return _Zip
         End Get
         Set(value As Boolean)
-            Zip = value
+            _Zip = value
         End Set
     End Property
 
-    Public Property mopZip As Integer
+    Public Property opZip As Integer
         Get
-            mopZip = opZip
+            Return _opZip
         End Get
         Set(value As Integer)
-            opZip = value
+            _opZip = value
         End Set
     End Property
+
+
 
 End Class
 

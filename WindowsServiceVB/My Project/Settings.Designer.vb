@@ -64,9 +64,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.WindowsServiceVB.My.MySettings
+        Friend ReadOnly Property Settings() As Global.Ewave.ServiceBackup.My.MySettings
             Get
-                Return Global.WindowsServiceVB.My.MySettings.Default
+                Return Global.Ewave.ServiceBackup.My.MySettings.Default
             End Get
         End Property
     End Module

@@ -353,7 +353,7 @@ Partial Class FrmMain
         'Panel2
         '
         Me.Panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.Panel2.BackgroundImage = Global.Ewave.Backup.My.Resources.Resources.Backup3
+        Me.Panel2.BackgroundImage = Global.Ewave.ConfigBackup.My.Resources.Resources.Backup3
         Me.Panel2.Location = New System.Drawing.Point(12, 12)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(122, 77)
@@ -371,8 +371,10 @@ Partial Class FrmMain
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.btnEnd)
         Me.Controls.Add(Me.btnModify)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.KeyPreview = True
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "FrmMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.GroupBox1.ResumeLayout(False)
